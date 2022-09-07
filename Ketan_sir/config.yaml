@@ -1,0 +1,24 @@
+# thresold parameter
+l_thresh : 25
+u_thresh : 245
+
+# for canny edge parameter
+t_lower : 100
+t_upper : 200
+L2Gradient : True
+
+# For connected component
+connectivity : 4
+
+# measure_pixel: 4
+get_pixel_img1 : 5
+get_pixel_img2 : 10
+# top_left_point_kernel : 1
+# bottom_right_point_kernel : 2
+
+get_kernel_size_value : 1  ## value 1 make 3 kernel size
+debug : False
+
+## for get_four part from image
+y_size : 200
+x_size : 500
